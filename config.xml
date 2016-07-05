@@ -25,7 +25,7 @@
         <content src="index.html" />
         
         <access origin="*" />
-        
+        <platform name="android">
         <!--preference elements (this app only published in android hence other Platform preference aren't included-->
         <preference name="Fullscreen"           value="true" />
         <preference name="permissions"          value="none"/>
@@ -41,8 +41,8 @@
         <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
         <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
         
-        <platform name="android">
-        <allow-intent href="market:*" />
+        
+        
         </platform>
 
 </widget>
