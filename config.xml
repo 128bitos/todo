@@ -1,3 +1,14 @@
+<!--
+******************************************************************
+* Author: Khalid Mahmood
+* Assignment: WE4.0 Mobile Web Applications, Digital Skills Academy
+* Student ID: D15126858
+* Date : 2016/07/06
+* Ref: https://www.youtube.com/watch?v=FSOiVprDdj0
+******************************************************************
+-->
+
+
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <widget     xmlns       =   "http://www.w3.org/ns/widgets"
@@ -13,17 +24,18 @@
            Things to do App designed to manage your Thing to do list
         </description>
 
-       
+        <!-- Author Details -->
         <author email="khalid.mahmood@webelevate.ie" href="https://build.phonegap.com">
             Khalid Mahmood 
         </author>
 
         
-        
-        <preference name="Fullscreen"           value="true" />
-        <preference name="permissions"          value="none"/>
+        <!--preference elements (this app only published in android hence other Platform preference aren't included-->
+        <preference name="Fullscreen"           value="false" />
         <preference name="Orientation"          value="portrait" />
+        <preference name="android-installLocation"    value="internalOnly" />  
         
+         <!-- Define app icon for android platform. -->
         <icon src="icon.png" />
        
         
