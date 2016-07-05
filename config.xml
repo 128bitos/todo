@@ -1,14 +1,3 @@
-<!--
-******************************************************************
-* Author: Khalid Mahmood
-* Assignment: WE4.0 Mobile Web Applications, Digital Skills Academy
-* Student ID: D15126858
-* Date : 2016/07/06
-* Ref: https://www.youtube.com/watch?v=FSOiVprDdj0
-******************************************************************
--->
-
-
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <widget     xmlns       =   "http://www.w3.org/ns/widgets"
@@ -40,3 +29,4 @@
        
         
 </widget>
+
