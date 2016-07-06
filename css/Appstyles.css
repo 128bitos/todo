@@ -12,7 +12,10 @@
 
 
 .done {
-	 color: #ccc;
+	 color: #FF3600;
+	 font-style: oblique;
+	text-decoration: line-through;
+	text-shadow: 0px 0px #FF3600;
 
 	}
 
@@ -22,9 +25,7 @@
 ul {
         list-style-type: none;
     	
-   		display: inline;
-
-   		margin-left: 10px;
+    	margin-left: 10px;
    }
 
 
@@ -38,3 +39,27 @@ ul {
 
 }
 
+
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #F9F4AB;
+    color: #000000;
+    font-weight: bold;
+    display: inline;
+   
+
+    
+}
+
+
+ .ui-page-theme-a .ui-bar-inherit,  html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #3b3b3a;
+    
+}
+
+
+.ui-checkbox input {
+    height: 42px;
+    left: -2.60em;
+   
+}
