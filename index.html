@@ -54,10 +54,10 @@
 	       <!-- To Do List items display -->
         <ul>
   		    <li ng-repeat="currentItems in todoList" >
-            <br>
+            
             <span><input type="checkbox" ng-model="currentItems.done"/></span><!-- Checkbox use to select items for deletion from the TO DO List -->
-            <br>
-            <span  ng-class="{'done':currentItems.done}">&nbsp;{{currentItems.item | uppercase}}</span><!-- "done" CSS class will call if checkbox value is true--> 
+            
+            <span  ng-class="{'done':currentItems.done}">{{currentItems.item}}</span><!-- "done" CSS class will call if checkbox value is true--> 
          </li>
         </ul>	
       </div>
